@@ -408,3 +408,65 @@ article.single-blog span {
     color: #ff7e34;
     margin-right: 5px;
 }
+
+/*===============================================
+    Contact-Area CSS Design
+=================================================*/
+.contact-us-area {
+    padding:60px 0;
+}
+.contact-info span {
+    color: #ff7214;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.contact-info h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #112e41;
+    padding: 20px 0;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.location {
+    display: flex;
+    align-items: center;
+}
+.location img {
+    max-width: 100%;
+}
+.location p {
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0;
+}
+.phone {
+    display: flex;
+    align-items: center;
+}
+.phone p {
+    padding-left: 15px;
+    padding-top: 8px;
+    margin: 0;
+}
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email p {
+    padding-top: 8px;
+    padding-left: 15px;
+    margin: 0;
+}
+.contact-form input,textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #e5e6ea;
+    outline: none;
+}
+.contact-button {
+    text-align: center;
+    padding-top: 10px;
+}
