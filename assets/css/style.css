@@ -1,7 +1,11 @@
-/* Google Fonts  */
+/*===============================================
+    Google Fonts 
+=================================================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
 
-/* Common Css  */
+/*===============================================
+    Common-CSS Design 
+=================================================*/
 * {
     margin: 0;
     padding:0;
@@ -254,4 +258,111 @@ button.work-button {
     font-weight: 600;
     color: #112e41;
     margin-top: 10px;
+}
+
+/*===============================================
+    Overview-Area CSS Design
+=================================================*/
+
+section.overview {
+    background-color: #162b45;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.single-overview img {
+    margin-bottom: 25px;
+}
+.single-overview-content {
+    display: flex;
+}
+
+.single-overview-content h2 {
+    margin-right: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.single-overview-content h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+
+/*===============================================
+    Testimonial-Area CSS Design
+=================================================*/
+.Testimonial-area {
+    padding:60px 0;
+}
+.testimonial-image img {
+    width: 100%;
+}
+.client-reaview {
+    padding-left: 35px;
+}
+.client-reaview p {
+    color: #888;
+    font-size: 18px;
+    font-weight: 400;
+}
+.client-reaview img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+.client-info {
+    display: flex;
+    margin-top: 40px;
+}
+
+.client-logo {
+    margin-right: 65px;
+}
+
+
+/*===============================================
+    Team-Area CSS Design
+=================================================*/
+.team-area {
+    padding:60px 0;
+}
+.single-team {
+    border: 3px solid #f6f7fb;
+    padding: 12px;
+    text-align:center;
+}
+.single-team img {
+    width: 100%;
+}
+.single-team h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #162b45;
+    margin-top: 25px;
+}
+
+.single-team p {
+    font-size: 15px;
+    color: #888888;
+    font-weight: 400;
+}
+.team-social-icon ul {
+    display: flex;
+    color:#888;
+}
+
+.team-social-icon ul li {
+    padding-right: 40px;
+}
+
+.team-social-icon ul li a {
+    text-decoration: none;
+    color: #888;
+}
+.team-social-icon ul li:first-child {
+    list-style: none;
 }
