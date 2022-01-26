@@ -21,6 +21,12 @@ body{
 p,span {
     font-family: 'Roboto', sans-serif;
 }
+img {
+    max-width: 100%;
+}
+.text-highlight {
+    color:#ff7214;
+}
 .hero-button {
     background: #ff7214;
     color: #fff;
@@ -174,7 +180,6 @@ header.header-area {
 .features-area {
     padding-bottom: 60px;
 }
-
 .single-feature {
     text-align: center;
     border: 3px solid #f7f7f7;
@@ -183,7 +188,7 @@ header.header-area {
 }
 .single-feature:hover {
     box-shadow: 3px 3px 8px #eaeaea;
-    border: none;
+    border: 3px solid transparent;
 }
 .single-feature .img {
     background: #ffeee2;
@@ -469,4 +474,87 @@ article.single-blog span {
 .contact-button {
     text-align: center;
     padding-top: 10px;
+}
+
+/*===============================================
+    Brand-Area CSS Design
+=================================================*/
+.brand-area {
+    padding: 70px 0;
+}
+.brand {
+    text-align: center;
+}
+.brand img {
+    max-width: 100%;
+}
+.owl-controls {
+    display: none;
+}
+/*===============================================
+    Footer Top CSS Design
+=================================================*/
+section.footer-top {
+    background-color: #162b45;
+    color: #fff;
+    padding: 50px 0;
+}
+.footer-logo img {
+    margin-bottom: 25px;
+}
+.footer-logo p {
+    color: #999999;
+    line-height: 2;
+}
+.footer-service h2 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 26px;
+    margin-bottom: 18px;
+}
+.footer-service ul li {
+    list-style: none;
+    margin-bottom: 7px;
+    color: #999;
+    font-weight: 400;
+}
+.instagram-feed h2 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.contact-information h2 {
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+.footer-location address {
+    padding-left: 20px;
+    color:#999;
+}
+.footer-location img {
+    margin-left: -22px;
+    margin-right: 4px;
+}
+.footer-phone img {
+    margin-right: 8px;
+}
+.footer-image img {
+    margin-right: 8px;
+}
+.footer-phone p {
+    color: #999;
+}
+.footer-image p {
+    color: #999;
+}
+
+/*===============================================
+    Footer CSS Design
+=================================================*/
+
+footer.footer-area {
+    background: #10233a;
+    color: #fff;
+    padding: 18px 0;
+    text-align: center;
 }
