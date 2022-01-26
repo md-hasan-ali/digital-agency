@@ -366,3 +366,45 @@ section.overview {
 .team-social-icon ul li:first-child {
     list-style: none;
 }
+
+/*===============================================
+    Blog-Area CSS Design
+=================================================*/
+.blog-area {
+    padding:60px 0;
+}
+.single-blog {
+    border: 3px solid #f6f7fb;
+}
+article.single-blog img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+article.single-blog span {
+    color: #888888;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.single-blog h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0;
+    color: #112e41;
+}
+.blog-content {
+    padding: 15px;
+}
+.blog-feadback {
+    display: flex;
+    padding-top:5px;
+}
+.blog-feadback p {
+    padding-right: 50px;
+    color: #888;
+}
+.blog-feadback p i {
+    color: #ff7e34;
+    margin-right: 5px;
+}
