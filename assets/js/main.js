@@ -24,7 +24,6 @@ owl.owlCarousel({
         }
     }
 });
-
 // Mobile Menu 
 function openMenu() {
     document.getElementById('navbar').style.display = 'block';
@@ -32,3 +31,24 @@ function openMenu() {
 function closeMenu() {
     document.getElementById('navbar').style.display = 'none';
 }
+$('.popup').magnificPopup({
+    type: 'iframe'
+    // other options
+});
+$('.counter').counterUp({
+    delay: 10,
+    time: 3000
+});
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+    autoplay: true,
+    slidesPerView: 1,
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+});
