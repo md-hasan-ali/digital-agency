@@ -33,7 +33,6 @@ function closeMenu() {
 }
 $('.popup').magnificPopup({
     type: 'iframe',
-    srcAction: 'iframe_src'
     // other options
 });
 $('.counter').counterUp({
