@@ -32,12 +32,13 @@ function closeMenu() {
     document.getElementById('navbar').style.display = 'none';
 }
 $('.popup').magnificPopup({
-    type: 'iframe'
+    type: 'iframe',
+    srcAction: 'iframe_src'
     // other options
 });
 $('.counter').counterUp({
     delay: 10,
-    time: 3000
+    time: 2000
 });
 
 const swiper = new Swiper('.swiper', {
@@ -45,6 +46,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     autoplay: true,
     slidesPerView: 1,
+    nav: true,
     // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',

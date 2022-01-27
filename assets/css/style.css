@@ -132,7 +132,7 @@ header.header-area {
     font-size: 40px;
     position: absolute;
     top: 35px;
-    right: 22%;
+    right: 12%;
     cursor: pointer;
     z-index: 9999;
 }
@@ -142,6 +142,7 @@ header.header-area {
     top: 20px;
     right: 15%;
     display: none;
+    cursor: pointer;
 }
 /*===============================================
     Banner-Area 
@@ -443,13 +444,13 @@ section.overview {
 .swiper-button-prev {
     position: absolute;
     top: 70px;
-    left: 260px;
+    left: 40%;
     width: 35px;
 }
 .swiper-button-next {
     position: absolute;
     top: 70px;
-    right: 52%;
+    right: 50%;
     width: 35px;
 }
 /*===============================================
