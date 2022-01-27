@@ -1,184 +1,189 @@
+
+
 /* Responsive  */
+
 @media only screen and (max-width:1200px) {
-    .vactor-img {
-        opacity: 0.5;
-    }
-    .swiper-button-next {
-        right: 45%;
-    }
+	.vactor-img {
+		opacity: 0.5;
+	}
+	.swiper-button-next {
+		right: 45%;
+	}
 }
 
 @media only screen and (max-width:991px) {
-    .about-image2 h2 {
-        font-size: 22px;
-    }
-    .about-content h2 {
-        font-size: 30px;
-    }
-    .about-content h5 {
-        font-size: 18px;
-        padding-bottom: 12px;
-    }
-    .team-social-icon ul {
-        display:block ;
-    }
+	.about-image2 h2 {
+		font-size: 22px;
+	}
+	.about-content h2 {
+		font-size: 30px;
+	}
+	.about-content h5 {
+		font-size: 18px;
+		padding-bottom: 12px;
+	}
+	.team-social-icon ul {
+		display: block;
+	}
 }
 
 @media only screen and (max-width:767px) {
-    .navigation ul {
-        display: none;
-    }
-    .mobile-menu i {
-        display: block;
-    }
-    .banner-text h1 {
-        font-size: 40px;
-    }
-    .about-content {
-        padding-left: 10px;
-    }
-    .about-image2 h2 {
-        font-size: 16px;
-        margin-top: 20px;
-    }
-    .work-content {
-        padding-left: 50px;
-        padding-right: 0px;
-    }
-    .swiper-button-next {
-        right: 35%;
-    }
-    .client-reaview img {
-        width: 85px;
-    }
-    .swiper-button-prev {
-        top: 40px;
-    }
-    .swiper-button-next {
-        top: 40px;
-    }
-    .client-name h2 {
-        font-size: 16px;
-    }
-    .client-reaview p {
-        font-size: 15px;
-        width: 95%;
-    }
-    .client-reaview img {
-        max-width: 100%;
-    }
-    .banner-text h1 {
-        width: 100%;
-    }
-    .banner-image img {
-        max-width: 85%;
-        margin-top: 45px;
-    }
-    .about-content {
-        padding-left: 10px;
-        margin-top: 50px;
-    }
-    .client-reaview {
-        margin-top: 70px;
-    }
-    .swiper-button-prev {
-        top: 100px;
-    }
-    .swiper-button-prev {
-        top: 100px;
-        left: 25%;
-    }
-    .swiper-button-next {
-        top: 100px;
-    }
-    .swiper-button-next {
-        right: 60%;
-    }
-    .blog-feadback p {
-        padding-right: 10px;
-        color: #888;
-    }
+	.navigation ul {
+		display: none;
+	}
+	.mobile-menu i {
+		display: block;
+	}
+	.banner-text h1 {
+		font-size: 40px;
+	}
+	.about-content {
+		padding-left: 10px;
+	}
+	.about-image2 h2 {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.work-content {
+		padding-left: 50px;
+		padding-right: 0px;
+	}
+	.swiper-button-next {
+		right: 35%;
+	}
+	.client-reaview img {
+		width: 85px;
+	}
+	.swiper-button-prev {
+		top: 40px;
+	}
+	.swiper-button-next {
+		top: 40px;
+	}
+	.client-name h2 {
+		font-size: 16px;
+	}
+	.client-reaview p {
+		font-size: 15px;
+		width: 95%;
+	}
+	.client-reaview img {
+		max-width: 100%;
+	}
+	.banner-text h1 {
+		width: 100%;
+	}
+	.banner-image img {
+		max-width: 85%;
+		margin-top: 45px;
+	}
+	.about-content {
+		padding-left: 10px;
+		margin-top: 50px;
+	}
+	.client-reaview {
+		margin-top: 70px;
+	}
+	.swiper-button-prev {
+		top: 100px;
+	}
+	.swiper-button-prev {
+		top: 100px;
+		left: 25%;
+	}
+	.swiper-button-next {
+		top: 100px;
+	}
+	.swiper-button-next {
+		right: 60%;
+	}
+	.blog-feadback p {
+		padding-right: 10px;
+		color: #888;
+	}
 }
+
 @media only screen and (max-width:480px) {
-    .about-image1 img {
-        width: 170px;
-        display: none;
-    }
-    .about-image2 img {
-        width: 160px;
-        margin-top: -20px;
-        position: relative;
-        top: -82%;
-        left: 45%;
-        display: none;
-    }
-    .about-area {
-        background-image:none
-    }
-    .about-area {
-        margin-top: 20px;
-        padding-bottom: 75px;
-    }
-    .about-content {
-        padding: 0px 10px;
-    }
-    .section-title h2 {
-        font-size: 25px;
-    }
-    .work-content {
-        margin-bottom: 30px;
-    }
-    .swiper-button-prev {
-        left: 35%;
-    }
-    .swiper-button-next {
-        right: 40%;
-    }
-    .footer-logo {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    .footer-service {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    .instagram-feed {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    .contact-information {
-        text-align: center;
-    }
-    .single-overview-content h2 {
-        width: 80px;
-    }
-    .single-overview {
-        padding-left: 60px;
-    }
-    .work-content {
-        padding-left: 30px;
-        padding-top: 35px;
-    }
-    .work-image img {
-        width: 100%;
-    }
-    .about-content {
-        margin-top: 24px;
-    }
-    .section-title {
-        margin-bottom: 30px;
-    }
-    .brand-area {
-        padding: 35px 0;
-    }
-    .blog-area {
-        padding: 30px 0;
-    }
-    .team-area {
-        padding: 30px 0;
-    }
-    .instagram-feed .col-sm-6 {
-        width: 30%;
-        margin: 12px auto;
-    }
+	.about-image1 img {
+		width: 170px;
+		display: none;
+	}
+	.about-image2 img {
+		width: 160px;
+		margin-top: -20px;
+		position: relative;
+		top: -82%;
+		left: 45%;
+		display: none;
+	}
+	.about-area {
+		background-image: none
+	}
+	.about-area {
+		margin-top: 20px;
+		padding-bottom: 75px;
+	}
+	.about-content {
+		padding: 0px 10px;
+	}
+	.section-title h2 {
+		font-size: 25px;
+	}
+	.work-content {
+		margin-bottom: 30px;
+	}
+	.swiper-button-prev {
+		left: 35%;
+	}
+	.swiper-button-next {
+		right: 40%;
+	}
+	.footer-logo {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.footer-service {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.instagram-feed {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.contact-information {
+		text-align: center;
+	}
+	.single-overview-content h2 {
+		width: 80px;
+	}
+	.single-overview {
+		padding-left: 60px;
+	}
+	.work-content {
+		padding-left: 30px;
+		padding-top: 35px;
+	}
+	.work-image img {
+		width: 100%;
+	}
+	.about-content {
+		margin-top: 24px;
+	}
+	.section-title {
+		margin-bottom: 30px;
+	}
+	.brand-area {
+		padding: 35px 0;
+	}
+	.blog-area {
+		padding: 30px 0;
+	}
+	.team-area {
+		padding: 30px 0;
+	}
+	.instagram-feed .col-sm-6 {
+		width: 30%;
+		margin: 12px auto;
+	}
 }
+

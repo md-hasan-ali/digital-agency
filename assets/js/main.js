@@ -40,14 +40,12 @@ $('.counter').counterUp({
     delay: 10,
     time: 2000
 });
-
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
     autoplay: true,
     slidesPerView: 1,
     nav: true,
-    // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
